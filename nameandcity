@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> <!-- Specifies the document type and version of HTML -->
+<html> <!-- Begins the HTML document -->
+
+<head> <!-- Starts the head section -->
+
+<title>Your Name</title> <!-- Sets the title of the document -->
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> <!-- Sets the character encoding of the document -->
+
+</head> <!-- Ends the head section -->
+
+<body> <!-- Starts the body section -->
+
+<h1>Whats Your Name? </h1> <!-- Displays a heading -->
+
+<form name="form1" method="get" action="result.php"> <!-- Starts a form with method "get" and action "result.php" -->
+
+  <p>Please type your first name: <!-- Prompts the user to enter their first name -->
+    <input name="firstName" type="text" id="firstName" size="12" maxlength="12"> <!-- Creates a text input field for the first name -->
+    <br>
+    Enter your last name: <!-- Prompts the user to enter their last name -->
+    <label>
+    <input name="lastName" type="text" id="lastName" size="15" maxlength="15"> <!-- Creates a text input field for the last name -->
+    </label>
+    <br>
+    Enter your city: <!-- Prompts the user to enter their city -->
+    <input name="city" type="text" id="city" size="20" maxlength="20"> <!-- Creates a text input field for the city -->
+    <br>
+    <br>
+  </p>
+
+  <p>
+    <input type="submit" name="Submit" value="Submit"> <!-- Creates a submit button to submit the form -->
+  </p>
+
+</form> <!-- Ends the form -->
+
+<p><a href="index.php">return</a></p> <!-- Adds a link to return to the index.php page -->
+
+</body> <!-- Ends the body section -->
+
+</html> <!-- Ends the HTML document -->

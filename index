@@ -1,0 +1,15 @@
+<!DOCTYPE html> <!-- Specifies the document type as HTML -->
+<html lang="en"> <!-- Begins the HTML document and sets the language to English -->
+<head>
+    <meta charset="UTF-8"> <!-- Sets the character encoding to UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Sets the viewport for responsive design -->
+    <title>PHP - Hello World! </title> <!-- Assigns a title to the document -->
+</head>
+<body>
+        <h1><?php echo 'Welcome To My Website'; ?></h1> <!-- Displays a welcome message using PHP -->
+        <p>Kalyan Mutyala </p> <!-- Displays the author's name -->
+        <br> <!-- Inserts a line break -->
+        <p><a href="basic.php">Week1:BasicPHP</a></p> <!-- Creates a link to the basic.php page -->
+        <p><a href="nameandcity.php">Week1:Name And City</a></p> <!-- Creates a link to the nameandcity.php page -->
+</body>
+</html>
